@@ -181,7 +181,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  border-radius: 20px;
+/*   border-radius: 20px; */
   background-image: linear-gradient(
     to bottom,
     rgb(241, 94, 83),
@@ -336,6 +336,9 @@ body::-webkit-scrollbar-thumb:hover {
     height: 45vh;
     padding-top: 20vh;
   }
+  .home {
+  width: 40px;
+}
 
   .nav {
     background-color: rgb(255, 255, 255);
